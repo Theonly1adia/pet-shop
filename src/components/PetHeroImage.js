@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 // The image is located in public/img/hero-dog.png
 export default function PetHeroImage (props) {
   return (
-    <div>
-      TODO: Finish this component based on the design in public/mockups/hero-image.png
-    </div>
+    <div className="bg-gradient-to-b from-rose-500 to-transparent">
+  <img src={props.src} alt="dog" />
+</div>
+
   );
 };
 
